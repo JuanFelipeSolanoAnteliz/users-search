@@ -111,7 +111,7 @@
 }
 
 .span{
-    background: rgb(148, 148, 148);
+    background: rgba(155, 155, 155, 0.678);
     height: 1px;
     width: 100%;
 }

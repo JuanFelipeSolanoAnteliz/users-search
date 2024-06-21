@@ -1,3 +1,4 @@
+import { filterbySearch } from "./diccionary__filter.js";
 export const usergallery = async(info)=>{
     let plantilla = '';
     info.forEach(element => {
@@ -14,8 +15,9 @@ export const usergallery = async(info)=>{
            </div>
        </article>
        <span class="span"></span>
-   </section>` 
+   </section>`;
     }); 
     return plantilla;
     
 };
+
