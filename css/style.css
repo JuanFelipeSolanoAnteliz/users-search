@@ -87,6 +87,11 @@
     width: 70px;
     height: 70px;
     border-radius:50% ;
+    overflow: hidden;
+}
+
+.user__image__container >img{
+    width: 100%;
 }
 
 .user__data__viwer{
