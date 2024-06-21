@@ -60,3 +60,52 @@
     backdrop-filter: blur(1px); 
     padding-inline: var(--space-layout-padding-lr);
 }
+
+.main{
+    width: 100vw;
+}
+.main__section{
+    /* background: greenyellow; */
+    /* padding-top: var(--space-layout-padding-t); */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.user__section{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height:100px;
+    padding-inline: 40px;
+    gap: 20px;
+}
+
+.user__image__container{
+    background: violet;
+    width: 70px;
+    height: 70px;
+    border-radius:50% ;
+}
+
+.user__data__viwer{
+    display: flex;
+    flex-direction: column;
+    /* background: yellowgreen;*/
+    height: 100%;
+    width: 70%;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+
+.header{
+    border-color: #000;
+}
+
+.span{
+    background: rgb(148, 148, 148);
+    height: 1px;
+    width: 100%;
+}
+   
