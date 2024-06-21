@@ -32,7 +32,7 @@ input__search.addEventListener('input', async (inputFilter)=>{
         });
         return emptyArray;
     };
-    
+        
     let contentFilter = await filterbySearch(info, search);
     console.log(contentFilter)
 
